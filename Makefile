@@ -10,6 +10,10 @@ obj/class_creator.o: src/class_creator.cpp
 	$(CC) $(CFLAGS) -c $< -o obj/class_creator.o
 
 
+install: bin/$(EXEC)
+	cp bin/$(EXEC) /usr/local/bin/
+
+
 .PHONY: clean
 
 clean:
