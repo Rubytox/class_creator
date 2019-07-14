@@ -10,7 +10,7 @@ or download the ZIP file. Then type `make` in the shell and you'll have the `cla
 
 Running
 ```
-make install
+sudo make install
 ```
 will also build the tool and copy it in `/usr/local/bin`.
 
